@@ -5,8 +5,3 @@ steps:
   - type: Command
     name: Run Tests
     command: mvn test
-
-artifacts:
-  - name: reports
-    type: BINARY
-    location: target
